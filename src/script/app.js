@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (index >= imagesArray.length) {
       index = 0;
     }
-   
+
     images.src = imagesArray[index];
+   
   };
   setInterval(() => {
     index++;
